@@ -8,7 +8,7 @@ WORKDIR /
 RUN apt-get update -y && apt-get install -y
 RUN apt install -y python3.8
 RUN apt install -y python3-pip
-RUN apt install -y pyton-pip
+RUN apt install -y python-pip
 RUN apt-get install -y python-mysqldb
 RUN apt-get install -y python3-dev libmysqlclient-dev
 
