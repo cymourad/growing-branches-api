@@ -1,0 +1,8 @@
+version: "3.2"
+
+services:
+  growing_branches_api:
+    build: .
+    restart: always
+    ports:
+      - "8080:8080"
