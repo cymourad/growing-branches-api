@@ -14,7 +14,7 @@ RUN apt-get install -y python3-dev libmysqlclient-dev
 
 # get the required packages and install them
 COPY requirements.txt .
-RUN pip install -r requirements
+RUN pip install -r requirements.txt
 
 # get all the code
 COPY . .
